@@ -1,0 +1,44 @@
+@import url("reset.css");
+
+body {
+	font-family: "Century Gothic";
+	font-size: 12px;
+}
+div {
+	box-sizing: border-box;
+}
+
+.btncontainer {
+	height: 120px;
+	display: flex;
+}
+
+#button {
+	margin: auto;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 5px;
+	background-color: #252525;
+	text-decoration: none;
+}
+.gallery {
+	max-width: 750px;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+#button:hover {
+	background-color: transparent;
+	color: #252525;
+	border: #252525 1px solid;
+}
+.picture img {
+	max-width: 150px;
+}
+.hide {
+	display: none;
+}
