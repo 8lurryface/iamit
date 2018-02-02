@@ -4,10 +4,9 @@
 		display: flex;
 	}
 	table {
-		//border-collapse: collapse;
 		margin: auto;
 	}
-	table, th{
+	table, th {
 		border: 1px black solid;
 	}
 	td {
@@ -29,10 +28,10 @@ if(count($images) != 0) {
 			}
 			echo "<td>$images[$i]<br><img style='max-width: 100px' 
 			src='img/".$images[$i]."'/></td>";
-			//echo '<br />';
 		}
 		echo "</tr></table>";
 }
+	
 else {
 	echo "<p>Sorry, no images in this folder</p>";
 }?>
